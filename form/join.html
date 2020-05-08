@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div>
+      <fieldset>
+        <legend>필수 사항</legend>
+        <br />
+        <div>
+          <label for="">이름</label>
+          <input type="text" />
+        </div>
+        <br />
+        <div>
+          <label for="">이메일</label>
+          <input type="text" />
+        </div>
+        <br />
+        <div>
+          <label for="">비밀번호</label>
+          <input type="password" />
+        </div>
+        <br />
+      </fieldset>
+    </div>
+
+    <div>
+      <fieldset>
+        <legend>부가 입력 사항</legend>
+        <div>
+          <label for="birth">생년월일</label>
+          <input type="date" name="bitrh" id="birth" />
+        </div>
+        <br />
+        <div>
+          <label for="loc">거주지를 선택해 주세요</label><br />
+          <select name="loc" id="loc">
+            <option value="loc">서울시</option>
+          </select>
+        </div>
+        <br />
+        <div>
+          <label for="hobby">취미</label>
+          <input type="checkbox" name="hobby" id="book" />독서
+          <input type="checkbox" name="hobby" id="travel" />여행
+          <input type="checkbox" name="hobby" id="movie" />영화감상
+        </div>
+        <br />
+        <div>
+          <label for="">성별</label>
+          <input type="radio" name="gender" id="gender" />남
+          <input type="radio" name="gender" id="gender" />여
+        </div>
+        <br />
+        <div>
+          <label for="">사진을 등록해 주세요</label>
+          <input type="file" name="pic" id="pic" />
+        </div>
+        <br />
+        <div>
+          <label for="">방문 경로를 말씀해 주세요</label><br />
+          <textarea name="" id="" cols="30" rows="10"></textarea>
+        </div>
+        <br />
+      </fieldset>
+    </div>
+  </body>
+</html>
